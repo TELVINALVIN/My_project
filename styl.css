@@ -1,0 +1,36 @@
+a:link{
+    color:lawngreen;
+}
+li:nth-child(even){
+    background-color: skyblue;
+}
+li:nth-child(odd){
+    background-color: powderblue;
+}
+h1{
+    text-shadow: 5px 0px 0px yellow,0px -5px 5px red;
+    box-shadow: 5px 5px 5px black;
+}
+h1:hover{
+    box-shadow: 5px 5px 5px black;
+}
+#box1{
+    height: 250px;
+    width: 250px;
+    background: red;
+    font-size: 225px;
+    text-align: centre;
+
+    animation: Kitbay;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    
+}
+
+@keyframes Kitbay{
+    from{margin-left: 100%}
+    to{margin-left: 0%;}
+}

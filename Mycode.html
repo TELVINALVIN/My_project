@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I LOVE CODING</title>
+        <link rel="stylesheet" href=".css">
+        <body>
+            <div class="registration-form">
+                <h1>Registration form</h1>
+            <a href="https://dictionary.cambridge.org/dictionary/english/storehouse"></a>
+            <button style background-color="darkgrey">click me</button>
+            <h3>Store Hours</h3>
+            <table bgcolor="black" width="700">
+                <tr bgcolor="grey">
+                    <th width="100">Sunday</th>
+                    <th width="100">Monday</th>
+                    <th width="100">Tuesday</th>
+                    <th width="100">Wednesday</th>
+                    <th width="100">Thursday</th>
+                    <th width="100">Friday</th>
+                    <th width="100">Saturday</th>copy image to the folder
+                </tr>
+                <tr bgcolor="lightgrey" align="centre">
+                    <td>Closed</td>
+                    <td>7:00AM-6:00PM</td>
+                    <td>8:30AM-5:00PM</td>
+                    <td>9:30AM-6:30PM</td>
+                    <td>8:00AM-6:30PM</td>
+                    <td>8:30AM-5:30PM</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+            <img src="storehouse.webp" alt="This is a warehouse">
+            <main>
+            </div>
+            <form action="#" method="post">
+                <!---personal information-->
+                <fieldset>
+                    <legend class="delt"> Personal Information</legend>
+                <div>
+                <label for="fname">first name:</label>
+                <input type="text" id="fname" name="fname" placeholder="alvin" required>
+                </div>
+                <br>
+                <div>
+                <label for="lname">last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="telvin" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" placeholder="dax@gmail.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="phone">phone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="0789488943" required>
+                </div>
+                <br>
+                <div>
+                    <label for="bdate">birthdate</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <fieldset>
+                <br>
+                <!---address information-->
+                <fieldset>
+                    <legend class="shelly">Address Information</legend>
+                        <div>
+                            <label for="address">Address Information</label>
+                            <input type="text" id="address" name="address" required>
+                            </div>
+                            <div>
+                                <label for="city">city</label>
+                                <input type="text" id="city" name="city">
+                            </div>
+                            <div>
+                                <label for="state">state</label>
+                                <input type="text" id="state" name="state">
+                            </div>
+                            <div>
+                                <label for="zip">zip code</label>
+                                <input type="zip" id="zip" name="zip">
+                            </fieldset>
+                            </div>
+                            <!---Account Information--->
+                            <fieldset>
+                                <div>
+                                <legend>Account Information</legend>
+                            <label for="username">username</label>
+                            <input type="text" id="username" name="username">
+                            </div>
+                            <div>
+                                <label for="password">password</label>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+                            <div>
+                                <label for="confirm password">confirm password</label>
+                                <input type="password" id="confirm password" name="confirm password" required>
+                            </div>
+                        </fieldset>
+                        <!---preferences-->
+                        <fieldset>
+                            <legend>preferences</legend>
+                            
+                            <label for="newsletter">subscribe to newsletter</label>
+                            <input type="checkbox" id="newsletter" name="newsletter">
+
+                            <label>Gender</label>
+                            <input type="radio" id="male" name="male" value="male">
+                            <input type="radio" id="female" name="female" value="female">
+                            <label for="female">female</label>
+                            
+                            <label for="favcolor">favorite color</label>
+                            <input type="color" id="favcolor" name="favcolor">
+
+                            <label>Rate our service</label>
+                            <input type="range" id="rate" name="rate">
+                        </fieldset>
+
+                        <!---file upload-->
+                        <fieldset>
+                            <legend>File upload</legend>
+
+                            <label for="profile-pic">upload profile picture</label>
+                            <input type="file" id="profile-pic" name="profile-pic">
+                        </fieldset>
+
+                        <!---comments-->
+                        <fieldset>
+                            <legend>Comments</legend>
+
+                            <label for="comments">Your Comments:</label>
+                            <textarea id="comments" name="comments" rows="4"></textarea>
+                        </fieldset>
+
+                            <label for="title">title:</label>
+                            <label for="Mr">Mr</label>
+                            <input type="radio" name="title" value="Mr">
+                            <label for="Mrs">Mrs</label>
+                            <input type="radio" name="title" value="Mrs">
+                            <br>
+                            <div>
+                                <label for="payment">payment:</label>
+                                <select id="payment" name="payment">
+                                    <option value="visa">visa</option>
+                                    <option value="mastercard">mastercard</option>
+                                    <option value="giftcard">giftcard</option>
+                                    <option value="M-Pesa">M-Pesa</option>
+                                </select>
+                            </div>
+                        <label for="PhD">PhD</label>
+                        <input type="radio" name="title" value="PhD">
+                        </div>
+                        <br>
+                        <div>
+                        <label for="quantity">quantity</label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+                        </div>
+                <br>
+                <div>
+                    <labe for="password">password</label>
+                        <input type="password" id="pass" name="pass" maxlenghth="12" required>  
+                </div>
+                <br>
+                <div>
+                    <input type="reset">
+                </div>
+                <br>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </body>
+    </head>
+</html>
