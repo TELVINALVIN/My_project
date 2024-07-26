@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My registration form</title>
+        <link rel="stylesheet" href="form.css">
+        <body>
+            <section class="container">
+            <h1>Registration Form</h1>
+            <form action="#" class="form">
+                <!---Personal information--->
+                   <div class="input-box">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter full name" required/>
+                </div>
+                <div class="column">
+                <div class="input-box">
+                    <label>Email Address</label>
+                    <input type="text" placeholder="Enter email address" required/>
+                </div>
+                </div>
+
+                <div class="column">
+                    <div class="input-box">
+                        <label>Phone Number</label>
+                        <input type="number" placeholder="Enter phone number" required/>
+
+                        <div class="column">
+                            <div class="input-box">
+                            <label>Birth Date</label>
+                             <input type="date" placeholder="Birth Date" required/>
+                </div>            
+                </div>
+                <div class="Gender-box">
+                    <h3>Gender</h3>
+                    <div class="Gender-option">
+                        <div class="gender">
+                            <input type="radio" id="check-male" name="gender"/>
+                            <label for="check-male">Male</label>
+                        </div>
+                            <div class="gender">
+                                <input type="radio" id="check-female" name="gender"/>
+                                <label for="check-female">Female</label>
+                            </div>
+                                <div class="gender">
+                                    <input type="radio" id="check-other" name="gender"/>
+                                    <label for="check-other">Prefer not to say</label>  
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="input-box address">
+                    <label>Address</label>
+                     <input type="text" placeholder="Enter Street Address" required/>
+                     <input type="text" placeholder="Enter Street Address line 2" required/>
+                     <div class="select-box">
+                        <select>
+                            <option hidden>Country</option>
+                            <option>America</option>
+                            <option>Canada</option>
+                            <option>Russia</option>
+                            <optio>Kenya</optio>
+                        </select>
+                     </div>   
+                     <input type="text" placeholder="Enter your City" required/>  
+                     </div>
+                     
+                     <div class="column">
+
+                     </div>
+                     <button>Submit</button>
+            </form>
+        </section>
+        </body>
+    </head>
+</html>
