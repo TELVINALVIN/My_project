@@ -1,0 +1,66 @@
+form{
+    background-color: rgba(red, green, blue, alpha);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1,h2{
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: silver;
+    background:linear-gradient(to right,skyblue,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+legend{
+    color: tomato;
+    padding: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+fieldset{
+    border-radius: 5px;
+    border-width: 10px;
+    border-style: dotted;
+    box-sizing: content-box;
+    border-color: aquamarine;
+    padding: 5px;
+}
+label{
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+button{
+    box-shadow: 0 0 5px cyan, 0 0 cyan;
+}
+button:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+body{
+    background-color: blueviolet;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}h1:hover{
+    box-shadow: 5px 5px 5px red;
+}
+table{
+    border: 2px;
+    border-radius: 5px;
+    border-color: skyblue;
+    border-style: groove;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: powderblue;
+}
+tr:nth-child(odd){
+    background-color: goldenrod;
+}
