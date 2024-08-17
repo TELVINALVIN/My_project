@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My website</title>
+    </head>
+    <body>
+        > <style>
+             /* Basic CSS for layout and styling */
+             body {
+            font-family: Arial, sans-serif;
+            }
+            .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+             }
+             .row {
+             display: flex;
+             flex-wrap: wrap;
+             margin: -10px;
+             }
+             .column {
+             flex: 33.33%;
+             padding: 10px;
+             }
+             .box {
+             padding: 20px;
+             background-color: #007bff;
+             color: white;
+             margin-bottom: 20px;
+             }
+             .button {
+             padding: 10px 20px;
+             background-color: #28a745;
+             color: white;
+             text-decoration: none;
+             border-radius: 5px;
+             }
+             .hidden-xs {
+             display: none;
+             }
+             @media (min-width: 600px) {
+             .hidden-xs {
+             display: block;
+             }
+             }
+             </style>
+        <div class="container">
+        <h1>Without Bootstrap</h1>
+
+        <div class="row">
+            <div class="column">
+                <div class="box1">column 1</div>
+            </div>
+            <div clas="column">
+                <div class="box">column 2</div>
+            </div>
+            <div class="column">
+            <div class="box">column 3</div>
+            </div>
+        </div>
+        <a href="#" class="button">Basic Button</a>
+        <p class="hidden-xs">This is hidden on extra-small screens</p>
+        </div>
+    </body>
+</html>

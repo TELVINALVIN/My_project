@@ -5,7 +5,16 @@
         <link rel="stylesheet" href="form.css">
         <body>
             <section class="container">
-            <h1>Registration Form</h1>
+            <h1 id="myform">Registration Form</h1>
+            <script>
+                <button id="myBtn">capitalize heading</button>
+                const heading = document.getElementById("myForm");
+                const capitalize = document.getElementById("upperCase");
+
+                capitalize.addEventListener('click', function(){
+                    heading.style.textTransform = 'uppercase';
+                });
+            </script>
             <form action="#" class="form">
                 <!---Personal information--->
                    <div class="input-box">
